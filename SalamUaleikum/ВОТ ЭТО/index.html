@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<head>
+
+    <meta charset="utf-8">
+    <title>Pharmacy Helper</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../secondWeb/mutual.css">
+    <link rel="stylesheet" href="mutual.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</head>
+<body style="background-color: rgb(230,240,250)">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Pharmacy helper</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="Padresses.html">Locates of the Pharmacy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="reviews.html">Reviews</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="participation.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="hit.html">What hurts?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Who.html">Members</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--<h1>What is Pharmacy Helper</h1>-->
+
+<div class="container">
+  <div class="carousel">
+    <div class="carousel__face"><span></span></div>
+    <div class="carousel__face"><span></span></div>
+    <div class="carousel__face"><span></span></div>
+    <div class="carousel__face"><span></span></div>
+    <div class="carousel__face"><span></span></div>
+    <div class="carousel__face"><span></span></div>
+    <div class="carousel__face"><span></span></div>
+    <div class="carousel__face"><span></span></div>
+    <div class="carousel__face"><span></span></div>
+  </div>
+</div>
+<br><br><Br><br><br><Br><Br><br><br><br><Br><br><br><Br><Br><br>
+    <h3 style="margin-top:15px;text-align: center ; border-left: solid black;border-top: solid black;border-right: solid black;margin-bottom: 0px">Our partners:</h3>
+
+    <table style="width:100%;">
+        <tr style="border-width: revert">
+            <td class="forCenter" style="width: 50%">Europharma</td>
+            <td class="forCenter">24 pharmacies in city <i class="fa fa-cart-plus"></i></td>
+        </tr>
+        <tr style="border-width: revert">
+            <td class="forCenter">Biosfera</td>
+            <td class="forCenter">16 pharmacies in city <i class="fa fa-cart-plus"></i></td>
+        </tr>
+        <tr style="border-width: revert">
+            <td class="forCenter">Gippokrat</td>
+            <td class="forCenter">12 pharmacies in city <i class="fa fa-cart-plus"></i></td>
+        </tr>
+    </table>
+
+</div>
+
+<hr>
+
+
+<footer>
+    <div class="footer-content">
+        <h3><a href="index.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Pharmacy Helper</a></h3>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>copyright &copy;2022 Pharmacy helper</p>
+    </div>
+</footer>
+<!--<script>-->
+<!--    setTimeout(()=> {-->
+<!--        let audio = new Audio(); // Создаём новый элемент Audio-->
+<!--        audio.src = 'chase.mp3'; // Указываем путь к звуку "клика"-->
+<!--        audio.autoplay = true; // Автоматически запускаем)-->
+<!--        audio.volume = 100;-->
+<!--    },10)-->
+<!--</script>-->
+</body>
+<style>
+.container {
+  position: relative;
+  width: 320px;
+  margin: 100px auto 0 auto;
+  perspective: 1000px;
+}
+
+.carousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d; 
+  animation: rotate360 60s infinite forwards linear;
+}
+.carousel__face { 
+  position: absolute;
+  width: 300px;
+  height: 187px;
+  top: 20px;
+  left: 10px;
+  right: 10px;
+  background-size: cover;
+  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+  display: flex;
+}
+
+span {
+  margin: auto;
+  font-size: 2rem;
+}
+
+
+.carousel__face:nth-child(1) {
+  background-image: url("https://www.undergraduate.study.cam.ac.uk/sites/www.undergraduate.study.cam.ac.uk/files/styles/leading/public/medicine.jpg?itok=3_-CjPEl");
+  transform: rotateY(  0deg) translateZ(430px); }
+.carousel__face:nth-child(2) { 
+  background-image: url("https://images.theconversation.com/files/379646/original/file-20210120-15-1rkrr09.jpg?ixlib=rb-1.1.0&rect=0%2C5%2C1000%2C660&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip");
+    transform: rotateY( 40deg) translateZ(430px); }
+.carousel__face:nth-child(3) {
+  background-image: url("https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/02/capsule_mrna_1296x728_header-1024x575.jpg?w=1155&h=1528");
+  transform: rotateY( 80deg) translateZ(430px); }
+.carousel__face:nth-child(4) {
+  background-image: url("https://labblog.uofmhealth.org/sites/lab/files/2018-06/michigan-med-l-doc-wardrobe.jpg");
+  transform: rotateY(120deg) translateZ(430px); }
+.carousel__face:nth-child(5) { 
+  background-image: url("https://2rdnmg1qbg403gumla1v9i2h-wpengine.netdna-ssl.com/wp-content/uploads/sites/3/2021/05/InternistVsFamilyPhysician-MLC-770x533-1-650x428.jpg");
+ transform: rotateY(160deg) translateZ(430px); }
+.carousel__face:nth-child(6) { 
+  background-image: url("https://images.theconversation.com/files/256057/original/file-20190129-108364-17hlc1x.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1356&h=668&fit=crop");
+ transform: rotateY(200deg) translateZ(430px); }
+.carousel__face:nth-child(7) { 
+  background-image: url("https://www.heart.org/-/media/Images/Health-Topics/Heart-Failure/Pharmacist-explaining-meds-to-customer.jpg");
+ transform: rotateY(240deg) translateZ(430px); }
+.carousel__face:nth-child(8) {
+  background-image: url("http://www.sechenov.ru/upload/iblock/7f4/blog_tegrated_healthcare_720x319.jpg");
+  transform: rotateY(280deg) translateZ(430px); }
+.carousel__face:nth-child(9) {
+  background-image: url("https://www.nyoooz.com/uploads/nyoooz-images/medicine.jpg");
+  transform: rotateY(320deg) translateZ(430px); }
+
+
+
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
+}
+body::-webkit-scrollbar {
+  width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+</style>
